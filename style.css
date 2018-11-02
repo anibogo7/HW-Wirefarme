@@ -7,45 +7,51 @@
     font-family: 'Arial', 'Helvetica Neue', Helvectia, sans-serif;
     color: #356;
     background: #777;
-    width: 780px;
+    width: 100%;
     font: size 18px;
   }
   
   header {
-      border: 10px;
-      height: 10px; 
-      margin: 20px;
-      padding: 8%;
-
- width: 400px;
-    
-
-
-      
-    background: #eebbee;
-
+      border: 10px; 
+      margin: 5px auto;
+      padding: 20px;
+      width: 960px;
+      background: #eebbee;
+     
   }
   
   nav {
     background: #eebbee;
-    
-    border: 10px;
-    height: 10px; 
-    margin: 20px;
-    padding: 8%;
+    width: 960px;
+    border: 10px; 
+    margin: 5px auto;
+    padding: 20px;
 
   }
   
   section {
     background: #eebbee;    
+    width: 450px;
+    height: 500px;
+    float: left;
+    margin: 15px;
   }
   
   aside {
     background: #eebbee;   
+    width: 450px;
+    height: 500px;
+    float: right;
+    margin: 15px;
   }
   
   footer {
-    background: #eebbee;   
+    border: 10px; 
+    margin: 5px auto;
+    padding: 20px;
+    width: 960px;
+    background: rgb(238, 187, 238);
+     
   }
 
   article {
@@ -63,7 +69,11 @@
     background: #eebbee;
   }
 
-  
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+    height: 550px;
+  }
 
 
 
